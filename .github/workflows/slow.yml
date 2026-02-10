@@ -1,0 +1,12 @@
+name: Slow CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  wait:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait 5 minutes
+        run: sleep 300
