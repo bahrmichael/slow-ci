@@ -8,5 +8,5 @@ jobs:
   wait:
     runs-on: ubuntu-latest
     steps:
-      - name: Wait 5 minutes
-        run: sleep 300
+      - name: Wait 90 seconds
+        run: sleep 90
